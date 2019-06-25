@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "BisonX";
-  src: url("./fonts/Bison-Bold.ttf") format("truetype");
+  font-family: "stopwatchX";
+  src: url("./fonts/Stopwatch.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -32,7 +32,7 @@ button:focus {
 }
 
 h1 {
-  font-family: stopwatch;
+  font-family: stopwatchX;
   text-align: center;
   font-size: 25vmin;
   color: rgb(255, 255, 255);

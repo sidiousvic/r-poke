@@ -17,6 +17,7 @@ button {
   border-color: WHITE;
   color: whitesmoke;
   font: 400 11px system-ui;
+  user-select: none;
 }
 
 button:hover {
@@ -37,6 +38,7 @@ h1 {
   font-size: 25vmin;
   color: rgb(255, 255, 255);
   margin-top: 10%;
+  user-select: none;
 }
 
 label {

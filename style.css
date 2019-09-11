@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "stopwatchX";
-  src: url("./fonts/Stopwatch.otf") format("opentype");
+  font-family: 'stopwatchX';
+  src: url('./fonts/Stopwatch.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -8,43 +8,43 @@
 html,
 body {
   margin-top: 1%;
+  height: 100vh;
   background-color: rgb(255, 0, 85);
-  /* overflow: hidden; */
-}
-
-button {
-  background-color: rgb(255, 0, 85);
-  border-color: WHITE;
-  color: whitesmoke;
-  font: 400 11px system-ui;
-  user-select: none;
-}
-
-button:hover {
-  background-color: rgb(241, 0, 80);
-  border-color: white;
-  color: white;
-}
-
-button:focus {
-  background-color: rgb(255, 0, 85);
-  border-color: whitesmoke;
-  color: whitesmoke;
+  overflow: hidden;
 }
 
 h1 {
+  margin-top: 5vh;
   font-family: stopwatchX;
   text-align: center;
-  font-size: 25vmin;
+  font-size: 15vmin;
   color: rgb(255, 255, 255);
-  margin-top: 10%;
   user-select: none;
 }
 
-label {
+button {
+  background-color: white;
+  border-color: WHITE;
+  color: rgb(255, 0, 85);
   font: 400 11px system-ui;
-  text-transform: uppercase;
-  color: dimgray;
+  user-select: none;
+  transition: 0.1s ease-in-out;
+}
+
+button:hover {
+  /* background-color: rgb(255, 0, 85);
+  border-color: white;
+  color: white; */
+  transform: scale(1.01);
+}
+
+button:focus {
+  background-color: white;
+  border-color: WHITE;
+  color: rgb(255, 0, 85);
+  font: 400 11px system-ui;
+  user-select: none;
+  transition: 0.1s ease-in-out;
 }
 
 p {
@@ -61,6 +61,7 @@ p {
 
 #sprite {
   display: flex;
+  width: 300px;
   align-content: space-around;
 }
 

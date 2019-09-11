@@ -1,4 +1,5 @@
 # r-poke
 
-🔴⚪️ A random pokemon sprite generator using PokéAPI.
-https://sidiousvic.github.io/r-poke/
+🔴⚪️ A random Pokémon sprite generator using PokéAPI.
+
+by sidiousvic
